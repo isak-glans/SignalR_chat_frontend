@@ -1,9 +1,12 @@
-﻿<h2></h2>
-<p>Var god ange användarnamn och klicka på det rum som du vill gå in på. </p>
-<input type="text" ng-model="username" />
+﻿
+<div>    
+    <label for="usernameInput">Användarnamn</label>
+    <input type="text" ng-model="username" id="usernameInput"/>
+</div>
 
-<ul ng-repeat="room in chatRooms">
-    <li><div class="chat_room" ng-click="clickRoom(room.room_slug)" style="background-color: yellow; height: 40px;" >{{room.room_name}}</div></li>    
+
+<ul ng-repeat="room in chatRooms" id="chatRoomList">
+    <li><div class="chat_room" ng-click="clickRoom(room.room_slug)" >{{room.room_name}}</div></li>    
 </ul>
 
-<button>Gå in</button>
+

@@ -1,0 +1,66 @@
+﻿body {
+    background-color: #f3f3f3;
+    font-family: 'Open Sans', sans-serif;
+}
+#siteWrapper {
+    width: 500px;
+    min-height: 750px;
+    overflow: auto;
+    background-color: white;
+    margin: 0 auto;
+    padding: 40px;
+}
+#siteHeader {
+    font-size: 40px;
+}
+
+#siteView {
+    
+}
+
+#chatRoomList {
+    margin-top:20px;
+    list-style-type: none;
+    padding-left: 0px;
+    background-color: #BDD8C5;
+}
+#chatRoomList li {
+    
+    padding: 10px;
+    cursor: pointer;
+    
+}
+#message_output {
+    height: 500px;
+    width: 96%;
+    padding: 2%;
+    background-color: #D7D7D7;
+    border: 1px solid #B4B0B0;
+    margin-bottom:20px;
+}
+#message_output ul {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+#chatTextArea {
+    width: 96%;
+    height: 50px;
+    resize: none;
+    padding: 2%;
+    margin:20px 0;
+}
+
+#chatSendBt {
+    padding: 20px;
+    background-color: green;
+    color: white;
+}
+
+.linkBack {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+}
