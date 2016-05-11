@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Chat</title>
+</head>
+<body ng-app="chatApp">
+
+    <p>SignalR chat</p>
+
+    <section ng-view></section>
+
+    <!-- SignalR -->
+    <script src="Scripts/jquery/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/jquery/jquery.signalR-2.2.0.min.js"></script>
+    
+    <!-- AngularJS -->
+    <script src="Scripts/angular/angular.min.js"></script>
+    <script src="Scripts/angular/angular-route.min.js"></script>
+    <script src="Scripts/angular/angular-sanitize.min.js"></script>    
+    
+    <!-- App script -->
+    <script src="Scripts/app/app.js"></script>
+
+    <!-- Services -->
+    <script src="Scripts/app/services/room_list.js"></script>    
+    <script src="Scripts/app/services/service_signalr.js"></script>
+    
+    <!-- Controllers -->
+    <script src="Scripts/app/controller/homeCtrl.js"></script>
+    <script src="Scripts/app/controller/roomCtrl.js"></script>
+    
+
+</body>
+</html>
+  

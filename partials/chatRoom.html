@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Chat</title>
+    <style type="text/css">
+        .container {
+            background-color: #99CCFF;
+            border: thick solid #808080;
+            padding: 20px;
+            margin: 20px;
+        }
+    </style>
+
+</head> 
+<body>  
+     <p>Username: {{username}}</p> 
+
+    <div id="message_output">
+        <ul ng-repeat="message in messages">
+            <li>{{message.username}} {{message.text}}</li>
+        </ul>
+    </div>
+    
+    <textarea ng-model="myMessage"></textarea>
+    <button ng-click="sendMessage()">Skicka</button>
+     
+    <h1>{{ slug }}</h1>
+</body>
+</html>
